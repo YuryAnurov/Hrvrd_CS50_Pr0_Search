@@ -1,0 +1,22 @@
+body {
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+  }
+  
+#topright {
+    text-align: right;
+}
+
+#centered {
+    position:absolute;
+    top: 40%;
+    left: 37%;
+}
+
+#centered2 {
+    text-align: center
+}
+
+#rounded {
+    border-radius: 12px;
+}

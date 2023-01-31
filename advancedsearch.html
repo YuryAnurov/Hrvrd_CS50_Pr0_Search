@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AdvancedSearch</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .grid {
+                background-color: white;
+                display: grid;
+                padding: 5px;
+                grid-column-gap: 5px;
+                grid-row-gap: 5px;
+                grid-template-columns: auto 180px 180px auto;
+            }
+
+            .grid-item {
+                background-color: white;
+                font-size: 13px;
+                padding: 5px;
+                text-align: left;
+            }
+
+            .grid-itemSml {
+                background-color: white;
+                font-size: 13px;
+                padding: 0px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="topright">
+            <a href="index.html">Search</a>
+        </div>
+        <p style="font-size: 80px ;"></p>  
+        <div>
+        <form  action="https://www.google.com/search"; style="text-align: center">Find pages with ...
+            <div class="grid">
+                <div class="grid-itemSml"></div>
+                <div class="grid-item">all these words:</div>
+                <div class="grid-item"><input type="text" name="as_q"></div>
+                <div class="grid-itemSml"></div>
+
+                <div class="grid-itemSml"></div>
+                <div class="grid-item">this exact word or phrase:</div>
+                <div class="grid-item"><input type="text" name="as_epq"></div>
+                <div class="grid-itemSml"></div>
+
+                <div class="grid-itemSml"></div>
+                <div class="grid-item">any of these words</div>
+                <div class="grid-item"><input type="text" name="as_oq"></div>
+                <div class="grid-itemSml"></div>
+
+                <div class="grid-itemSml"></div>
+                <div class="grid-item">none of these words</div>
+                <div class="grid-item"><input type="text" name="as_eq"></div>
+                <div class="grid-itemSml"></div>
+
+            </div>
+            <div><p style="font-size: 2px ;"></p></div>
+            <div id="centered2">
+                <input type="submit" value="Google Search" style="background-color: blue; color: white;">
+            </div>
+            <!-- <input type="text" name="tbm" value="isch" style="visibility: hidden; font-size: 1px"> -->
+        </div>
+        </form>
+     </body>
+</html>
